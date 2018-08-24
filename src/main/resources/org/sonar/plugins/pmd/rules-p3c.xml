@@ -40,6 +40,10 @@
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-concurrent.xml/ThreadShouldSetNameRule]]></configKey>
     </rule>
+    <rule key="AvoidManuallyCreateThreadRule">
+        <priority>CRITICAL</priority>
+        <configKey><![CDATA[rulesets/java/ali-concurrent.xml/AvoidManuallyCreateThreadRule]]></configKey>
+    </rule>
     <rule key="AvoidCallStaticSimpleDateFormatRule">
         <priority>CRITICAL</priority>
         <configKey><![CDATA[rulesets/java/ali-concurrent.xml/AvoidCallStaticSimpleDateFormatRule]]></configKey>
@@ -210,4 +214,5 @@
         <priority>MAJOR</priority>
         <configKey><![CDATA[rulesets/java/ali-set.xml/CollectionInitShouldAssignCapacityRule]]></configKey>
     </rule>
+
 </rules>

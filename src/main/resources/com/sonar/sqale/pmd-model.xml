@@ -1,5 +1,5 @@
 <sqale>
-    <chc>
+    <!--<chc>
         <key>REUSABILITY</key>
         <name>Reusability</name>
         <chc>
@@ -3924,7 +3924,7 @@
                 </prop>
             </chc>
         </chc>
-    </chc>
+    </chc>-->
 
     <chc>
         <key>P3C-PMD</key>
@@ -4577,6 +4577,19 @@
             <chc>
                 <rule-repo>pmd</rule-repo>
                 <rule-key>CollectionInitShouldAssignCapacityRule</rule-key>
+                <prop>
+                    <key>remediationFunction</key>
+                    <txt>CONSTANT_ISSUE</txt>
+                </prop>
+                <prop>
+                    <key>offset</key>
+                    <val>2</val>
+                    <txt>min</txt>
+                </prop>
+            </chc>
+            <chc>
+                <rule-repo>pmd</rule-repo>
+                <rule-key>AvoidManuallyCreateThreadRule</rule-key>
                 <prop>
                     <key>remediationFunction</key>
                     <txt>CONSTANT_ISSUE</txt>

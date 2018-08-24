@@ -1,5 +1,5 @@
 <rules>
-  <rule key="JUnitStaticSuite">
+  <!--<rule key="JUnitStaticSuite">
     <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/junit.xml/JUnitStaticSuite]]></configKey>
   </rule>
@@ -71,5 +71,5 @@
   <rule key="JUnit4TestShouldUseTestAnnotation">
     <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/migrating.xml/JUnit4TestShouldUseTestAnnotation]]></configKey>
-  </rule>
+  </rule>-->
 </rules>

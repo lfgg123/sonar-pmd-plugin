@@ -1,6 +1,6 @@
 <rules>
 
-  <rule key="DontCallThreadRun">
+  <!--<rule key="DontCallThreadRun">
     <priority>MAJOR</priority>
     <configKey>rulesets/java/basic.xml/DontCallThreadRun</configKey>
     <status>DEPRECATED</status>
@@ -1782,6 +1782,6 @@
   <rule key="UselessQualifiedThis">
     <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/unnecessary.xml/UselessQualifiedThis]]></configKey>
-   </rule>
+   </rule>-->
 
 </rules>

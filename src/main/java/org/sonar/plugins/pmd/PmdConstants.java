@@ -23,7 +23,7 @@ public final class PmdConstants {
   public static final String PLUGIN_NAME = "PMD";
   public static final String PLUGIN_KEY = "pmd";
   public static final String REPOSITORY_KEY = PLUGIN_KEY;
-  public static final String REPOSITORY_NAME = "PMD";
+  public static final String REPOSITORY_NAME = "PMD-p3c-2345";
   public static final String TEST_REPOSITORY_KEY = "pmd-unit-tests";
   public static final String TEST_REPOSITORY_NAME = "PMD Unit Tests";
   public static final String P3C_REPOSITORY_KEY = "pmd-p3c";
